@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detail">
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="retour"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/plateau1"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="10dp"
+        android:text="Plateau 1"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/back" />
+
+    <Button
+        android:id="@+id/un_un"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="0dp"
+        android:text="1"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plateau1" />
+
+    <Button
+        android:id="@+id/un_deux"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="10dp"
+        android:text="2"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/un_un"
+        app:layout_constraintTop_toBottomOf="@+id/plateau1" />
+
+    <Button
+        android:id="@+id/un_trois"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="10dp"
+        android:text="3"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/un_deux"
+        app:layout_constraintTop_toBottomOf="@+id/plateau1" />
+
+    <Button
+        android:id="@+id/un_quatre"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="10dp"
+        android:text="4"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/un_trois"
+        app:layout_constraintTop_toBottomOf="@+id/plateau1" />
+
+    <Button
+        android:id="@+id/un_cinq"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="10dp"
+        android:text="5"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/un_quatre"
+        app:layout_constraintTop_toBottomOf="@+id/plateau1" />
+
+    <TextView
+        android:id="@+id/plateau_2"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="10dp"
+        android:text="Plateau 2"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/un_un" />
+
+    <Button
+        android:id="@+id/deux_un"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="0dp"
+        android:text="1"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plateau_2" />
+
+    <Button
+        android:id="@+id/deux_deux"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="10dp"
+        android:text="2"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/un_un"
+        app:layout_constraintTop_toBottomOf="@+id/plateau_2" />
+
+    <Button
+        android:id="@+id/deux_trois"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="10dp"
+        android:text="3"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/un_deux"
+        app:layout_constraintTop_toBottomOf="@+id/plateau_2" />
+
+    <Button
+        android:id="@+id/deux_quatre"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="10dp"
+        android:text="4"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/un_trois"
+        app:layout_constraintTop_toBottomOf="@+id/plateau_2" />
+
+    <Button
+        android:id="@+id/deux_cinq"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="10dp"
+        android:text="5"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/un_quatre"
+        app:layout_constraintTop_toBottomOf="@+id/plateau_2" />
+
+    <TextView
+        android:id="@+id/plateau_3"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="10dp"
+        android:text="Plateau 3"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/deux_un" />
+
+    <TextView
+        android:id="@+id/plateau_4"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="10dp"
+        android:text="Plateau 4"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/trois_un" />
+
+    <TextView
+        android:id="@+id/plateau_5"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:text="Plateau 5"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quatre_un" />
+
+
+    <Button
+        android:id="@+id/trois_un"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="0dp"
+        android:text="1"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plateau_3" />
+
+    <Button
+        android:id="@+id/trois_deux"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="10dp"
+        android:text="2"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/un_un"
+        app:layout_constraintTop_toBottomOf="@+id/plateau_3" />
+
+    <Button
+        android:id="@+id/trois_trois"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="10dp"
+        android:text="3"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/un_deux"
+        app:layout_constraintTop_toBottomOf="@+id/plateau_3" />
+
+    <Button
+        android:id="@+id/trois_quatre"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="10dp"
+        android:text="4"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/un_trois"
+        app:layout_constraintTop_toBottomOf="@+id/plateau_3" />
+
+    <Button
+        android:id="@+id/trois_cinq"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="10dp"
+        android:text="5"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/un_quatre"
+        app:layout_constraintTop_toBottomOf="@+id/plateau_3" />
+
+    <Button
+        android:id="@+id/quatre_un"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="1"
+        android:layout_marginTop="0dp"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plateau_4" />
+
+    <Button
+        android:id="@+id/quatre_deux"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:text="2"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/un_un"
+        app:layout_constraintTop_toTopOf="@+id/quatre_un" />
+
+    <Button
+        android:id="@+id/quatre_trois"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:text="3"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/un_deux"
+        app:layout_constraintTop_toTopOf="@+id/quatre_un" />
+
+    <Button
+        android:id="@+id/quatre_quatre"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:text="4"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/un_trois"
+        app:layout_constraintTop_toTopOf="@+id/quatre_un" />
+
+    <Button
+        android:id="@+id/quatre_cinq"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:text="5"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/un_quatre"
+        app:layout_constraintTop_toTopOf="@+id/quatre_un" />
+
+    <Button
+        android:id="@+id/cinq_un"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="1"
+        android:layout_marginTop="0dp"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plateau_5" />
+
+    <Button
+        android:id="@+id/cinq_deux"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:text="2"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/un_un"
+        app:layout_constraintTop_toTopOf="@+id/cinq_un" />
+
+    <Button
+        android:id="@+id/cinq_trois"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:text="3"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/un_deux"
+        app:layout_constraintTop_toTopOf="@+id/cinq_un" />
+
+    <Button
+        android:id="@+id/cinq_quatre"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:text="4"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/un_trois"
+        app:layout_constraintTop_toTopOf="@+id/cinq_un" />
+
+    <Button
+        android:id="@+id/cinq_cinq"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:text="5"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/un_quatre"
+        app:layout_constraintTop_toTopOf="@+id/cinq_un" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

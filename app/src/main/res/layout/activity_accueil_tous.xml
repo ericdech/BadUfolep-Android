@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccueilTous">
+
+    <TextView
+        android:id="@+id/ufolep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ufolep 44"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/saison"
+        android:layout_width="200dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="30dp"
+        android:text="2019 - 2020"
+        android:textSize="17dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ufolep"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:textSize="15dp"
+        android:background="@color/gris"
+        app:layout_constraintEnd_toEndOf="@+id/saison"
+        app:layout_constraintTop_toTopOf="@+id/saison" />
+
+    <TextView
+        android:id="@+id/nom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nom"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/calendrier"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/club"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Club"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/calendrier"
+        app:layout_constraintStart_toEndOf="@+id/prenom" />
+
+    <TextView
+        android:id="@+id/prenom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prénom"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/calendrier"
+        app:layout_constraintStart_toEndOf="@+id/nom" />
+
+    <Button
+        android:id="@+id/calendrier"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="150dp"
+        android:text="Calendrier Championnat"
+        android:gravity="center_vertical"
+        android:textSize="15dp"
+        app:layout_constraintTop_toBottomOf="@+id/ufolep"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/classement"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:text="Classement"
+        android:textSize="15dp"
+        app:layout_constraintTop_toBottomOf="@+id/calendrier"
+        android:layout_marginTop="5dp"
+        />
+
+    <Button
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:text="Information Adhérent"
+        android:textSize="15dp"
+        app:layout_constraintTop_toBottomOf="@+id/classement" />
+
+    <Button
+        android:id="@+id/propos"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:text="A propos"
+        android:textSize="15dp"
+        app:layout_constraintTop_toBottomOf="@id/info"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

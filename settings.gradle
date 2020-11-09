@@ -1,0 +1,2 @@
+rootProject.name='Ufolep'
+include ':app'
